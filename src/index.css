@@ -1,32 +1,5 @@
-@font-face {
-  font-family: 'roboto';
-  src: url('../assets/fonts/Roboto-Thin.ttf');
-  font-weight: 200;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'roboto';
-  src: url('../assets/fonts/Roboto-Regular.ttf');
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'roboto';
-  src: url('../assets/fonts/Roboto-Medium.ttf');
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'roboto';
-  src: url('../assets/fonts/Roboto-Bold.ttf');
-  font-weight: 900;
-  font-display: swap;
-}
-
 * {
+  box-sizing: border-box;
   font-family: roboto, sans-serif;
   font-weight: 400;
   margin: 0;
@@ -46,12 +19,4 @@
 
 .hide {
   display: none !important;
-}
-
-
-/* Main container */
-#container {
-  background-color: var(--light-blue-bg);
-  height: 100vh;
-  width: 100vw;
 }
